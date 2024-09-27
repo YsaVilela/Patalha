@@ -59,3 +59,12 @@ A "Patalha" é um jogo simples de estratégia desenvolvido em Java. O objetivo �
 - Implementação de mais modalidades de competição.
 - Melhoria na lógica de seleção do robô.
 - Implementação de uma interface gráfica.
+
+## Funcionamento
+
+https://github.com/user-attachments/assets/dcb33677-f3e0-4cff-9537-5d60e396aa8c
+
+
+
+
+
