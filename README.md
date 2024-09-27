@@ -43,7 +43,7 @@ A "Patalha" é um jogo simples de estratégia desenvolvido em Java. O objetivo �
 
 1. Clone o repositório: 
    ```bash
-   git clone https://github.com/YsaVilela/Patalha
+   git clone https://github.com/YsaVilela/Patalha.git
    ```
 2. Compile o código:
    ```bash
