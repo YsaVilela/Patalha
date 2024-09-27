@@ -21,9 +21,9 @@ A "Patalha" é um jogo simples de estratégia desenvolvido em Java. O objetivo �
 
 3. **Modalidades de Competição:**
    - As modalidades de competição são baseadas nos atributos dos patos:
-    - Canto: Qual pato canta melhor.
-    - Voo: Qual pato voa mais alto ou rápido.
-    - Beleza: Qual pato é o mais bonito.
+       - Canto: Qual pato canta melhor.
+       - Voo: Qual pato voa mais alto ou rápido.
+       - Beleza: Qual pato é o mais bonito.
 
 4. **Decisão do Vencedor da Rodada:**
    - A cada rodada, o desempenho dos patos é comparado com base no atributo da modalidade escolhida. O pato com o maior valor no atributo vence a rodada.
