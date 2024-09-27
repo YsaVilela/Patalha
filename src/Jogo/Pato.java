@@ -12,6 +12,7 @@ public class Pato {
 		this.voo = voo;
 	}
 	
+	// Retorna apenas o valor da modalidade escolhida
     public int consultarPorModalidade(Modalidade modalidade) {
         switch (modalidade) {
             case BELEZA:
@@ -25,6 +26,7 @@ public class Pato {
         }
     }
     
+    // Exibe todos os atributos do pato
     public void exibirPato() {
     	System.out.println("Beleza: " + consultarPorModalidade(Modalidade.BELEZA));
 		System.out.println("Canto: " + consultarPorModalidade(Modalidade.CANTO));

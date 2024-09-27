@@ -12,7 +12,8 @@ public abstract class Participante{
 	public List<Pato> getPatos() {
 		return patos;
 	}
-
+	
+	// Exibe a lista de patos que o participante possui
 	void exibirPatos() {
 		System.out.print("\nEssas são seus patos:\n");
 		for(int p = 0; p < patos.size(); p++) {
@@ -21,7 +22,9 @@ public abstract class Participante{
 		}
 	}
 	
+	// Remove um pato da lista de patos disponiveis
 	void removerPatoJaJogado(Pato pato) {
 		patos.remove(patos.indexOf(pato));
 	}
+	
 }

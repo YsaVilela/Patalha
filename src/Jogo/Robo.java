@@ -8,6 +8,7 @@ public class Robo extends Participante{
 		super(patos);
 	}
 
+	// Recebe qual modalidade deve ser analisada e qual o valor do pato escolhido pelo adversario e busca e retorna um que possa ganhar do jogador
 	public Pato escolherPato(Modalidade modalidade, int valorAdversario) {
 	    while (valorAdversario >= 0) {
 	        for (Pato pato : super.getPatos()) {

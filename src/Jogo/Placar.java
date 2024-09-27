@@ -4,15 +4,7 @@ public class Placar {
 	private int pontosJogador;
 	private int pontosRobo;
 	private int rodada; 
-	
-	public int getPontosJogador() {
-		return pontosJogador;
-	}
-
-	public int getPontosRobo() {
-		return pontosRobo;
-	}
-	
+		
 	public int getRodada() {
 		return rodada;
 	}
@@ -23,6 +15,7 @@ public class Placar {
 		System.out.println("Robo: " + pontosRobo + " pontos");
 	}
 	
+	//Compara os valores do atributo dos patos dos jogadores e exibe o vencedor da rodada
 	void vericarGanhador(int patoJogador1, int patoRobo) {
 		rodada += 1;
 		if(patoJogador1 > patoRobo) {
@@ -41,6 +34,7 @@ public class Placar {
 		System.out.println("\n" + ganhador + " ganhou essa rodada!!!");
 	}
 	
+	// Finaliza a partida e exibe o vencedor da partida
 	void finalizarPartida() {
 		if(pontosJogador > pontosRobo) {
 			System.out.println("\nParabens! Você ganhou!!!");
